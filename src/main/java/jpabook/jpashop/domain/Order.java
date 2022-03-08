@@ -10,7 +10,7 @@ import java.util.List;
 public class Order {
 
     @Id @GeneratedValue
-    @Column(name = "ORDER_ID")
+    @Column(name = "ORDER_ID")  //PK
     private Long id;
 
     @ManyToOne

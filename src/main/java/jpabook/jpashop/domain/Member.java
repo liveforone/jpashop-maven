@@ -8,7 +8,7 @@ import java.util.List;
 public class Member {
 
     @Id @GeneratedValue
-    @Column(name = "MEMBER_ID")
+    @Column(name = "MEMBER_ID")  //PK
     private Long id;
     private String name;
     private String city;
